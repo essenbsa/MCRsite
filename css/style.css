@@ -1,0 +1,70 @@
+body {
+	font-family: 'Cinzel', serif;
+	background: black;
+	color: white;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	color: white;
+	background-color: black;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.c-image {
+	min-height: 700px;
+	max-height: 1010px;
+	margin: auto;
+	display: block;
+}
+
+.albums {
+	background: black;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.salbum {
+	background: black;
+}
+
+.album {
+	max-width: 190px;
+	max-height: 190px;
+	margin: auto;
+	display: block;
+}
+
+.heading {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+.content {
+	display: none;
+}
